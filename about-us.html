@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClothRental</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Brand Logo -->
+        <div class="logo">
+          <a href="index.html"> <i class="fas fa-tshirt"></i> ClothRental </a>
+        </div>
+
+        <!-- Search form -->
+        <div class="search">
+          <form action="search.php" method="post">
+            <input type="text" name="search" placeholder="Search.." />
+            <button type="submit" name="submit-search">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Profile, Wishlisst and cart icons -->
+        <div class="icons">
+          <a href="profile.php"><i class="fa fa-user"></i></a>
+          <a href="wishlist.php"><i class="fas fa-heart"></i></a>
+          <a href="cart.php"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Us Part -->
+      <section class="container">
+        <div>
+          <h2>About Us</h2>
+        </div>
+      </section>
+
+      <!--Introduction of Website Part -->
+      <section class="container">
+        <div class="product-heading">
+          <h4>Introduction of Website</h4>
+        </div>
+        <!-- Product Card Container -->
+        <div class="product_container" style="text-align: justify">
+          Ditch the closet clutter and embrance endless style! We're Clothes
+          Rental, where fashion thrives on flexibilty. We handpick designer gems
+          and trendy staples, all ready to rent for any occasion. Look amazing,
+          save money and go green experience the joy of reinventing your wardobe
+          without commitment. Let's unlock a world of fashain possibilities, one
+          rented outfit at a time.
+        </div>
+      </section>
+
+      <div style="margin: 30px">
+        <hr />
+      </div>
+      <!--Opening Hours Part -->
+      <section class="container">
+        <div class="product-heading">
+          <h4>Opening Hours</h4>
+        </div>
+        <!-- Product Card Container -->
+        <div class="product_container">
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Opening Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday to Friday</td>
+                <td>9:00 AM - 6:00 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <!-- About Us -->
+      <div>
+        <h4>About Us</h4>
+        <p>
+          Our mission is to provide an online platform for renting and lending
+          clothes. We aim to provide a hassle free experience to our customers
+          and help them save money, time and effort.
+        </p>
+      </div>
+
+      <!-- Categories -->
+      <div>
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="./categories.html#mens">Mens</a></li>
+          <li><a href="./categories.html#womens">Womens</a></li>
+          <li><a href="./categories.html#kids">Kids</a></li>
+        </ul>
+      </div>
+
+      <!-- Useful Links -->
+      <div>
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="./register.html">Register</a></li>
+          <li><a href="./about-us.html">About Us</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Us -->
+      <div>
+        <h4>Contact Us</h4>
+        <ul>
+          <li>
+            <a href="./contact-us.html#address"
+              ><i class="fas fa-home"></i> Address</a
+            >
+          </li>
+          <li>
+            <a href="./contact-us.html#phone"
+              ><i class="fas fa-phone"></i> Phone</a
+            >
+          </li>
+          <li>
+            <a href="./contact-us.html#email"
+              ><i class="fas fa-envelope"></i> Email</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 ClothRental. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

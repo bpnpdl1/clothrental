@@ -1,0 +1,77 @@
+
+.login_form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_input_fields{
+    width: 100%;
+    height: 100%;
+   
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form_input_fields input,select{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form_input_fields input:focus{
+    outline: none;
+}
+
+.form_input_fields input::placeholder{
+    font-size: 1rem;
+}
+
+.form_input_fields input[type="submit"]{
+    padding: 10px 20px;
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.login_form{
+
+   display: block;
+   text-align: left;
+    width: 30%;
+    margin-top: 3%;
+
+}
+
+.login_form label{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.login_form button{
+    padding: 10px 20px;
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.login_form button:hover{
+    background-color: #f4f4f4;
+    color: #333;
+    border: 1px solid #333;
+}

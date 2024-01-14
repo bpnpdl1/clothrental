@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClothRental</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/auth.css" />
+    <!-- Fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Brand Logo -->
+        <div class="logo">
+          <a href="index.html"> <i class="fas fa-tshirt"></i> ClothRental </a>
+        </div>
+
+        <!-- Search form -->
+        <div class="search">
+          <form action="search.php" method="post">
+            <input type="text" name="search" placeholder="Search.." />
+            <button type="submit" name="submit-search">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Profile, Wishlisst and cart icons -->
+        <div class="icons">
+          <a href="profile.php"><i class="fa fa-user"></i></a>
+          <a href="wishlist.php"><i class="fas fa-heart"></i></a>
+          <a href="cart.php"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Heading Part -->
+      <section class="container">
+        <div>
+          <h2>Create new Account</h2>
+          <quote
+            >Already Registred ?
+            <a href="./login.html" style="color: black">Login</a></quote
+          >
+        </div>
+        <!-- Login Form -->
+        <div class="login_form">
+          <form>
+            <div class="form_input_fields">
+              <label for="username">Username</label> <br />
+              <input type="text" placeholder="Username" />
+            </div>
+
+            <div class="form_input_fields">
+              <label for="email">Email</label> <br />
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="form_input_fields">
+              <label for="password">Password</label> <br />
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="form_input_fields">
+              <label for="username">Date of Birth</label> <br />
+              <select>
+                <option selected>Select</option>
+                <option value="">Janaury</option>
+                <option value="">February</option>
+                <option value="">March</option>
+                <option value="">April</option>
+                <option value="">May</option>
+                <option value="">June</option>
+                <option value="">July</option>
+                <option value="">August</option>
+                <option value="">September</option>
+
+                <option value="">October</option>
+                <option value="">November</option>
+                <option value="">December</option>
+              </select>
+            </div>
+            <button type="submit" class="login_button">Sign Up</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 ClothRental. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
